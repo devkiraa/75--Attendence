@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendence Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <center>
+    <div>
+        <h1>Attendence Calculator</h1>
+        <div>
+            <label for="pername">Percentage Required</label>
+            <select name="pername">
+                <Option>60%</Option>
+                <Option>75%</Option>
+                <option>80%</option>
+            </select>
+        </div>
+        <div>
+            <label>Present</label>
+            <input type="number" id="present" min="0" max="30">
+        </div>
+        <div>
+            <label>Total Classes</label>
+            <input type="number" id="classes" min="0" max="30">
+        </div>
+        <div style="font-style:poppins;font-weight: 500;">
+            <button onclick="calculate()">Calculate Attendance</button>
+        </div>
+    </div>
+</center>
+    
+</body>
+</html>
